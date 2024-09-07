@@ -1,7 +1,10 @@
 # SecureStringReverse
-Reverses the powershelll secure string back to plain text
+A powershell script to reverse the powershelll secure string back to plain text
 
-How to identify a secure string vs say a regular password hash? 
+# Usage
+See comments in the powershell script
+
+# How to identify a secure string vs say a regular password hash? 
 
 When a SecureString is exported to a text file, it is often serialized in a format that represents an encrypted, secure object. The most common method for exporting a SecureString is using ConvertFrom-SecureString, which serializes it to a base64-like encoded string. Here's an example:
 
